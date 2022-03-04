@@ -1,0 +1,27 @@
+{
+  "name": "nessbank_tailwind",
+  "version": "1.0.0",
+  "description": "NessBank Template with Tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T0ny86/nessbank_tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T0ny86/nessbank_tailwind/issues"
+  },
+  "homepage": "https://github.com/T0ny86/nessbank_tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.3.2",
+    "postcss": "^8.4.7",
+    "tailwind": "^4.0.0"
+  }
+}
