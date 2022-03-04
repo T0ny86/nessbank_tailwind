@@ -4,30 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <title>Ness Bank with tailwind</title>
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <nav>
-          <div class="">Ness Bank</div>
+
+  <body class="bg-creme h-screen">
+    <div class="m-12">
+      <header class="flex justify-between">
+        <div class="text-3xl font-bold">Ness Bank</div>
+        <nav class="flex justify-evenly align-middle">
           <div class="">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Blog</a>
-            <a href="#">Support</a>
-            <a href="#">FAQ</a>
-            <a href="#">Login</a>
+            <a href="#" class="font-semibold space-x-3 p-2 px-2.5">Home</a>
+            <a href="#" class="font-semibold space-x-3 p-2 px-2.5">Services</a>
+            <a href="#" class="font-semibold space-x-3 p-2 px-2.5">Blog</a>
+            <a href="#" class="font-semibold space-x-3 p-2 px-2.5">Support</a>
+            <a href="#" class="font-semibold space-x-3 p-2 px-2.5">FAQ</a>
+            <a href="#" class="font-semibold space-x-3 p-2 px-2.5 bg-white">Login</a>
           </div>
         </nav>
       </header>
-      <section></section>
+
+      <section class="mt-12 bg-hero-image w-full min-h-min  bg-center bg-cover flex justify-evenly align-middle items-center">
+        <div class="flex flex-col h-full w-6/12 justify-evenly gap-5">
+          <div>
+            <p class="font-semibold  text-white text-2xl">&#8226; Ness Bank is the best</p>
+          </div>
+          <div class="">
+            <p class="font-semibold  text-white text-5xl">
+              Personalize your card and stand out from the <span class="text-creme">crowd.</span>
+            </p>
+          </div>
+          <div class="">
+            <p class="font-semibold  text-white text-2xl">
+                Personalize your card with your taste and make it different</p>
+          </div>
+          <div>
+              <a class="font-bold bg-creme p-2 px-6" href="#">Learn more</a>
+          </div>
+        </div>
+        <img src="/dist/img/cards.webp" class="w-1/4">
+      </section>
       <!-- /hero section-->
 
-      <section></section>
+      <section class="flex justify-between gap-6 mt-12">
+          <div class="bg-white w-6/12 p-6">
+              <div class="w-6/12 float-left">
+                  <p class="font-extrabold text-5xl">268.000</p>
+                  <p class="">Happy customer</p>
+              </div>
+              <div class="w-6/12 float-left">
+                  <p class="font-extrabold text-5xl">832.230</p>
+                  <p class="">Card has been printed</p>
+              </div>
+              <span class="float-none"></span>
+          </div>
+          <div class="bg-white w-6/12 p-6">
+              <div class="w-6/12 float-left">
+                  <p class="font-extrabold text-5xl">20.560</p>
+                  <p class="">Order in progress</p>
+              </div>
+              <div class="w-6/12 float-left h-full flex flex-col justify-end gap-2">
+                  <p class="font-extrabold text-xl text-right">25%</p>
+                 <div class="bg-gray w-full h-2 relative">
+                     <span class="bg-creme w-1/4 absolute h-full"></span>
+                 </div>
+              </div>
+              <span class="float-none"></span>
+          </div>
+      </section>
       <!-- /statistics section-->
-      <section></section>
+      <section class="text-center mt-11">
+          <div>
+              <p class="font-extrabold text-4xl">Our Partners</p>
+          </div>
+          <div class="mt-9">
+              <p class="text-2xl">We have worked with several large companies</p>
+          </div>
+          <div class="mt-10 w-full bg-footer-company bg-contain h-28">
+              
+          </div>
+      </section>
       <!-- /partners section-->
-    
+
     </div>
     <!-- /wrapper-->
   </body>
